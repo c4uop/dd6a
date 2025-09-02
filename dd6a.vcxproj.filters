@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\fft.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maxiAtoms.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maxiBark.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maxiFFT.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maxiGrains.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maxiMFCC.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\maximilian.cpp">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMaxim\libs\stb_vorbis.c">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8374175-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{4C900462--6D4-8-4A-F6-9-D26-46A14E949506}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMaxim">
+			<UniqueIdentifier>{81A9CFB9--D22-F-40-EB-9-4EC-CDB8A381E970}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMaxim\src">
+			<UniqueIdentifier>{1345DCA2--E41-9-4D-49-A-C70-197A7493AF8D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMaxim\libs">
+			<UniqueIdentifier>{CD33093F--F14-F-45-C4-9-278-9ECF412F4FAF}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\src\ofxMaxim.h">
+			<Filter>addons\ofxMaxim\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\fft.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maxiAtoms.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maxiBark.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maxiFFT.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maxiGrains.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maxiMFCC.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\maximilian.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\sineTable.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMaxim\libs\stb_vorbis.h">
+			<Filter>addons\ofxMaxim\libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
